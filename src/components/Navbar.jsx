@@ -10,7 +10,6 @@ const Navbar = ({ isLoggedIn }) => {
           <li><Link to="/busqueda">Busqueda y registro</Link></li>
           <li><Link to="/pedagogico">Pedagógico</Link></li>
           <li><Link to="/terapeutico">Terapéutico</Link></li>
-          <li><Link to="/informe">Informe</Link></li>
           <li><Link to="/estado">Estado #5</Link></li>
           
           {isLoggedIn ? (
